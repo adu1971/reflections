@@ -10,7 +10,7 @@ Use "git reset <pathspec>" to remove from staging area. git reset has other usag
 OR use "git rm --cached <pathspec>" to remove from staging area.
 Use git commit to place all files in the staging area at once to the repository.
 While editing commit messages, the convention is to use verbs as commands ie write
-add this feature, NOT added this feature.
+"add this feature", NOT "added this feature".
 
 
 How can you use the staging area to make sure you have one commit per logical
