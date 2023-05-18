@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden subdirectory .git is created. This subdirectory is maintained by git and indicates that the parent directory is under version control of git.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging Area sits in between the Working Directory and the Repository.
+Use "git add <pathspec>" to place a file to Staging Area  
+Use "git reset <pathspec>" to remove from staging area. git reset has other usages...
+OR use "git rm --cached <pathspec>" to remove from staging area.
+Use git commit to place all files in the staging area at once to the repository.
+While editing commit messages, the convention is to use verbs as commands ie write
+add this feature, NOT added this feature.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
