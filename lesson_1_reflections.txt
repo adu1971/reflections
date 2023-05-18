@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    only the changed lines were displayed. - signs indicating deletion, + signs
+    indicating insertion.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    when a working functionality gets lost, you can easily browse the change 
+    history to discover when and by which modification the bug is first 
+    introduced. Also when more than one programmer is working on a 
+    certain file, it is possible to see other programmers' modifications and
+    make a merge.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When a commit decision is given by the programmer, the commits are done
+    only at meaningful times. And each commit can be annotated by explanatory
+    comments and version/release numbers can be assigned. Moreover separate
+    branches can be created and maintained. The only thing to mention as a 
+    cons is the risk of loosing yet uncommitted code due to some uncontrolled
+    situation like lack of attention or power failure etc. 
+    Rule of thumb: ONE COMMIT PER LOGICAL CHANGE.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A logical unit that a programmer works on usually consists of multiple files.
+    However the editor of a word document works on a single document file. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log lists the commits including the id and comments. git diff id1 id2 
+    displays us the differences between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I know I can rollback to a previous working verison even if I break
+    something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control of the ReadingRoom project.
